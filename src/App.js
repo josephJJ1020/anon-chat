@@ -59,13 +59,13 @@ function App() {
   // listen for new messages from other clients as they are sent to the server, add new message to messages state
   useEffect(() => {
     socket.on("newMsg", (newMsg) => {
-      console.log(messages);
+      
       setMessages([...messages, newMsg]);
     });
 
     socket.on("newConnectServer", (newMsg) => {
       setMessages([...messages, newMsg]);
-      console.log(messages);
+      
     });
   }, [socket, messages]);
 
