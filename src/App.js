@@ -24,7 +24,6 @@ function App() {
 
   // get all messages from db when starting the app
   useEffect(() => {
-    console.log(process.env.REACT_APP_SERVER);
     // random ID; if there is already an ID in session, use it, else generate new one
     if (sessionStorage.getItem("Id")) {
       setUsername(sessionStorage.getItem("Id"));
@@ -102,7 +101,9 @@ function App() {
                   return (
                     <div className="message" key={index}>
                       <b>
-                        {message.author.includes(username) ? "You: " : `${message.author}: `}
+                        {message.author.includes(username)
+                          ? "You: "
+                          : `${message.author}: `}
                       </b>
                       {message.message}
                     </div>
