@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Anon Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Real-time Chat App with MongoDB, Mongoose, Express, React, Node.js, and Socket.io
 
-## Available Scripts
+=======
 
-In the project directory, you can run:
+Chat with people anonymously in one single group chat. This is a simple blueprint for creating a real-time chat application with the MERN stack.
 
-### `npm start`
+### About the app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- This application is a real-time chat application that allows users to anonymously send messages into a single group chat; the user can see and send messages in real time
+- Uses React and Bootstrap for the frontend, Express, the `http` module, and Socket.io as the backend, Mongoose as ORM, and MongoDB as a storage service
+- Generates a random ID for the user with the `uuid` module the first time the user connects
+- Uses Mongoose to add and get items from the database
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How to use
 
-### `npm test`
+- Install needed client dependencies with `npm install`
+- Run `npm start` in a terminal on the client folder to start the frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Chat with us
 
-### `npm run build`
+- Go to https://josephjj1020.github.io/anon-chat/ to experience the app!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[GPL] (https://choosealicense.com/licenses/gpl-3.0/)
