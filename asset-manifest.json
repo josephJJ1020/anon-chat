@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/anon-chat/static/css/main.28f10984.css",
+    "main.js": "/anon-chat/static/js/main.45aedc61.js",
+    "index.html": "/anon-chat/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.28f10984.css",
+    "static/js/main.45aedc61.js"
+  ]
+}
